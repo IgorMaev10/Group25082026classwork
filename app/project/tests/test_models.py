@@ -24,3 +24,4 @@ class TestShoppingCart:
         shopping_cart.add_item(apple)
         shopping_cart.add_item(orange)
         assert shopping_cart.get_total() == 30
+
