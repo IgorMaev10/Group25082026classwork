@@ -9,10 +9,10 @@ r = redis.Redis(
     password=config.PASSWORD,
 )
 
-r.set('car', 'porsche carrera gt')
-r.set('pet', 'Рися', ex=7200)
-r.lpush('groceries', 'apples', 'milk')
-r.expire('groceries',604800)
-r.hset('recipie', mapping={"flour": "250", "milk": "500"})
-r.hset('recipie', mapping={"sugar": "300"})
-r.hset('recipie', mapping={"sugar": "500"})
+# r.set('car', 'porsche carrera gt')
+# r.set('pet', 'Рися', ex=7200)
+# r.lpush('groceries', 'apples', 'milk')
+# r.expire('groceries',604800)
+# r.hset('recipie', mapping={"flour": "250", "milk": "500"})
+# r.hset('recipie', mapping={"sugar": "300"})
+# r.hset('recipie', mapping={"sugar": "500"})
