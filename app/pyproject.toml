@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "“John", email = "“john@email.com”" }
+    { name = "John", email = "john@email.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
@@ -13,7 +13,6 @@ dependencies = [
     "passlib[bcrypt]==1.7.4",
     "pika>=1.4.4",
     "pillow>=12.3.0",
-    "psycopg2>=2.9.13",
     "psycopg2-binary>=2.9.13",
     "pyjwt>=2.14.0",
     "pyotp>=2.10.0",
